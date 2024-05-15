@@ -1,0 +1,8 @@
+n = input('\033[1:30:46mDigite algo: \033[m')
+print('\033[1:34mO tipo primitivo desse valor é: \033[32m', type(n))
+print('\033[1:34mEsse é alfanumerico? \033[32m', n.isalnum())
+print('\033[1:34mEsta em maiusculo? \033[32m', n.isupper())
+print('\033[1:34mÉ uma alfabetico? \033[32m', n.isalpha())
+print('\033[1:34mÉ um número? \033[32m', n.isnumeric())
+print('\033[1:34mEsta em minúsculo? \033[32m',n.islower())
+print('\033[1:34mSó tem espaços? \033[32m', n.isspace())
